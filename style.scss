@@ -261,6 +261,7 @@ img {
 
 table {
   margin-bottom: 1rem;
+  margin-left: 2rem;
   width: 100%;
   font-size: 70%;
   border: 1px solid #e5e5e5;
@@ -401,8 +402,8 @@ tbody tr:nth-child(odd) th {
 .profile-thumbnail {
   object-fit: cover;
   object-position: center top;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -489,7 +490,11 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-post-title .name {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.list-post-title .grade {
+  font-size: 12px;
 }
 
 .list-post-title {
