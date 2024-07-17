@@ -547,3 +547,43 @@ tbody tr:nth-child(odd) th {
   border: none;
   background-color: #FFF;
 }
+
+.intro {
+  text-align: left;
+}
+
+.intro h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  font-family: "Open Sans", "Source Sans Pro";
+  line-height: 1.1;
+  color: #0d0d0d;
+  letter-spacing: 0rem;
+}
+
+.intro h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.intro h3 {
+  font-size: 1.3rem;
+}
+
+.intro h4, h5, h6 {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.intro p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+}
+
+
+.first-letter {
+  color:#c80000;
+}

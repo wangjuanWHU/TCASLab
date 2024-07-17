@@ -3,65 +3,60 @@
 # # # # # # # #
 
 # Basic
-name:               "Kording Lab"
-title:              "Kording Lab at the University of Pennsylvania"
-description:        "The Kording Lab is a computational neuroscience and causality research group at the University of Pennsylvania."
-
+name: "TC&S Lab"
+title: "Trusted Computing & Security Lab of CSE, WHU."
+description: ""
 
 # URL
-url:                http://kordinglab.com
-baseurl:            
+url: https://www.tcaslab.com
+baseurl:
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 
 # Markdown
-markdown:           kramdown
+markdown: kramdown
 
 # Highlighter
-highlighter:        rouge
+highlighter: rouge
 
 # Navigation
 nav:
-  - name:           "home"
-    href:           "/"
-  - name:           "about"
-    href:           "/about"
-  - name:           "publications"
-    href:           "/publication"
-  - name:           "people"
-    href:           "/people"
+  - name: "home"
+    href: "/"
+  # - name: "about"
+  #   href: "/about"
+  - name: "publications"
+    href: "/publication"
+  - name: "people"
+    href: "/people"
   # - name:           "blog"
-    # href:           "/blog"
-#   - name:           "abstracts"
-#     href:           "/abstracts"
-  - name:           "lab teachings"
-    href:           "/presentations"
+  # href:           "/blog"
+  #   - name:           "abstracts"
+  #     href:           "/abstracts"
+  # - name: "lab teachings"
+  #   href: "/presentations"
 
 # Sass
 sass:
-  style:            :compressed
+  style: :compressed
 
 # Scopes
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
+  - scope:
+      path: ""
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      layout:       "post"
-  -
-    scope:
-      path:         ""
-      type:         "people"
+      layout: "post"
+  - scope:
+      path: ""
+      type: "people"
     values:
-      layout:       "profile"
-
+      layout: "profile"
 
 collections:
   people:
