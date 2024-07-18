@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tcaslab"
+version = "0.1.0"
+description = ""
+authors = ["Crescentm <guyues@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bibtexparser = { version = "^2.0.0b7", allow-prereleases = true }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

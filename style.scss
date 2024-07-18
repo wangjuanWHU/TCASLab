@@ -286,14 +286,13 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 40rem;
-//  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
 
   @media (min-width: 40rem){
-//    padding: 5rem 1rem;
   }
 }
+
 
 .masthead {
 
@@ -521,12 +520,13 @@ tbody tr:nth-child(odd) th {
 }
 
 // change font for navbar
-.navbar, .navbar-nav>li>a {
+.navbar,.navbar-nav>li>a {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 80%;
+  font-size: 90%;
+  --bs-navbar-toggler-focus-width: 0;
 }
 
 // fix menu bar spacing for mobile
@@ -547,11 +547,14 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 0;
 }
 
+
 // fix menu button for mobile
-.navbar-toggle, .navbar-default .navbar-toggle:hover {
+.navbar-toggler, .navbar-expand-lg .navbar-toggle:hover {
   border: none;
   background-color: #FFF;
 }
+
+
 
 .intro {
   text-align: left;
