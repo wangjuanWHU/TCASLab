@@ -153,6 +153,7 @@ hr {
   border-top: .5px solid #eee;
   border-bottom: .5px solid #eee;
   margin: 1.5rem auto;
+  opacity: 1;
 }
 
 strong {
@@ -380,6 +381,10 @@ tbody tr:nth-child(odd) th {
   }
 }
 
+.post small {
+  color:#888888
+}
+
 .list {
   &-post-title {
     margin-bottom: .25rem;
@@ -602,4 +607,8 @@ tbody tr:nth-child(odd) th {
 
 .first-letter {
   color:#c80000;
+}
+
+.news {
+  
 }
