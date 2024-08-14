@@ -1,5 +1,6 @@
 ---
 name: Yong Zhuang
 position: phd
-joined: 2023
+joined: 2022
+grade: 2022
 ---

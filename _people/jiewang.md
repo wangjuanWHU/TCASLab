@@ -1,5 +1,6 @@
 ---
 name: Jie Wang
 position: phd
-joined: 2019
+joined: 2020
+grade: 2020
 ---
