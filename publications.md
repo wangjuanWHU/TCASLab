@@ -7,17 +7,17 @@ permalink: /publication/
 
 ### 2024
 
-_GAN you see me? enhanced data reconstruction attacks against split inference_<br>
-Li, Ziang and Yang, Mengda and Liu, Yaxin and Wang, Juan and Hu, Hongxin and Yi, Wenzhe and Xu, Xiaoyang<br>
-Advances in Neural Information Processing Systems, 2024 
+_Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks_<br>
+Yu, He and Boheng, Li and Yao, Wang and Mengda, Yang and Juan, Wang and Hongxin, Hu and Xingyu, Zhao<br>
+ACM Conference on Computer and Communications Security, 2024 
 
 _A Stealthy Wrongdoer: Feature-Oriented Reconstruction Attack against Split Learning_<br>
 Xu, Xiaoyang and Yang, Mengda and Yi, Wenzhe and Li, Ziang and Wang, Juan and Hu, Hongxin and Zhuang, Yong and Liu, Yaxin<br>
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024 
 
-_Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks_<br>
-yu he<br>
-ACM Conference on Computer and Communications Security, 2024 
+_GAN you see me? enhanced data reconstruction attacks against split inference_<br>
+Li, Ziang and Yang, Mengda and Liu, Yaxin and Wang, Juan and Hu, Hongxin and Yi, Wenzhe and Xu, Xiaoyang<br>
+Advances in Neural Information Processing Systems, 2024 
 
 _Penetralium: Privacy-preserving and memory-efficient neural network inference at the edge_<br>
 Yang, Mengda and Yi, Wenzhe and Wang, Juan and Hu, Hongxin and Xu, Xiaoyang and Li, Ziang<br>
