@@ -38,7 +38,13 @@ permalink: /people/
           {% if profile.avatar %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default_avatar.png"></a>
+            {% if profile.gender == 'male' %}
+              <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/male_avatar.png"></a>
+            {% elsif profile.gender == 'female' %}
+              <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/female_avatar.png"></a>
+            {% else %}
+              <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default_avatar.png"></a>
+            {% endif %}
           {% endif %}
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
           {% if profile.grade %}
