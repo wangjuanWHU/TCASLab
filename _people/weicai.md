@@ -1,6 +1,6 @@
 ---
-name: Yiwei Xu
-position: phd
+name: Wei Cai
+position: master
 joined: 2024
 grade: 2024
 gender: male
