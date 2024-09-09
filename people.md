@@ -25,7 +25,7 @@ permalink: /people/
  {% elsif role == 'undergrade' %}
 <h3>Undergraduate students</h3>
  {% elsif role == 'alumni' %}
-<h3>Alumni</h3>
+<!-- <h3>Alumni</h3> -->
 {% endif %}
 </div>
 
@@ -62,9 +62,9 @@ permalink: /people/
 {% else %}
 <br>
 
-| Who are they | When were they here    | Where they went |
+<!-- | Who are they | When were they here    | Where they went |
 | :----------- | :--------------------- | :-------------- |
-| Jiaxin Gong  | Master Students (2020) | Test            |
+| Jiaxin Gong  | Master Students (2020) | Test            | -->
 
 {% endif %}
 {% endfor %}
