@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import bibtexparser
 import os
 import re
@@ -29,7 +30,7 @@ with open(CITE_FILE) as bibtex_file:
             current_year = entry.fields_dict["year"].value
             out.write(f"### {current_year}\n\n")
 
-        out.write(f"_{filed['title'].value}_<br>\n")
+        out.write(f"_{filed['title'].value.strip()}_<br>\n")
 
         author_string = pattern.sub(
             lambda x: x.group(0).replace(" and", ","), filed["author"].value
