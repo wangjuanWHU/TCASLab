@@ -22,7 +22,7 @@ Xu, Xiaoyang and Yang, Mengda and Yi, Wenzhe and Li, Ziang and Wang, Juan and Hu
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024 
 
 _Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks_<br>
-yu he<br>
+Yu, He and Boheng, Li and Yao, Wang and Mengda, Yang and Juan, Wang and Hongxin, Hu and Xingyu, Zhao<br>
 ACM Conference on Computer and Communications Security, 2024 
 
 _Penetralium: Privacy-preserving and memory-efficient neural network inference at the edge_<br>
