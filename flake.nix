@@ -74,6 +74,7 @@
         devShells = rec {
           default = dev;
           dev = pkgs.mkShell {
+            venvDir = ".venv";
             buildInputs =
               [
                 env
@@ -84,9 +85,17 @@
               ++ (with pkgs; [
                 yarn
                 rufo
+                python312
+                python312Packages.venvShellHook
+                python312Packages.pip
                 # more packages here
               ]);
+            postVenvCreation = ''
+              unset SOURCE_DATE_EPOCH
+              pip install -r requirements.txt
+            '';
           };
+
         };
       }
     );
