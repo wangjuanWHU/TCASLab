@@ -11,6 +11,14 @@ _I know what you MEME! Understanding and Detecting Harmful Memes with Multimodal
 Zhuang, Yong and Guo, Keyan and Wang, Juan and Jing, Yiheng and Xu, Xiaoyang and Yi, Wenzhe and Yang, Mengda and Zhao, Bo and Hu, Hongxin<br>
 The 2025 Network and Distributed System Security Symposium (NDSS'25), 2025 
 
+_From Head to Tail: Efficient Black-box Model Inversion Attack via Long-tailed Learning_<br>
+Li, Ziang and Zhang, Hongguang and Wang, Juan and Chen, Meihui and Hu, Hongxin and Yi, Wenzhe and Xu, Xiaoyang and Yang, Mengda and Ma, Chenjun<br>
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2025 
+
+_Zion:  A Practical Confidential Virtual Machine Architecture on Commodity RISC-V Processors_<br>
+Wang, Jie and Wang, Juan and Zhang, Yinqian<br>
+Proceedings of the 62th ACM/IEEE Design Automation Conference, 2025 
+
 ### 2024
 
 _GAN you see me? enhanced data reconstruction attacks against split inference_<br>
