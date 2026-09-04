@@ -1,6 +1,6 @@
 ---
 name: Yuyi Hu
-position: master
+position: alumi
 joined: 2023
 grade: 2023
 gender: male
